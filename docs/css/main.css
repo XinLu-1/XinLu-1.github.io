@@ -1,0 +1,28 @@
+.tangerine-bold {
+  font-family: "Tangerine", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+  background-color: #43A2D9;
+}
+
+h1 {
+  font-family: Arial;
+  color: #4343D9;
+}
+
+h2 {
+  font-family: Arial;
+  color: #4343D9;
+}
+
+.md-img {
+  width: 600px;
+}
+
+.sm-img {
+  width: 200px
+}
