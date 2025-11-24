@@ -1,0 +1,58 @@
+.noto-sans-regular {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.right-aligned-text {
+  text-align: right;
+}
+
+
+.navigation {
+  background-color: #AF0824;
+}
+.column {
+    width: 16.5%;
+    float: left;
+}
+
+.boxBorder{
+  border-style: solid;
+  border-width: 1px;
+}
+
+body {
+  background-color: #FFF0CC;
+}
+
+h1 {
+  font-family: Kaushan Script;
+  color: #2B2B2B;
+}
+
+h2 {
+  font-family: Noto Sans;
+  color: #2B2B2B;
+}
+
+
+.md-img {
+  width: 600px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.sm-img {
+  width: 200px
+}
