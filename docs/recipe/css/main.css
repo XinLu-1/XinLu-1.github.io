@@ -31,6 +31,18 @@
   border-width: 1px;
 }
 
+.boxBorderwhite{
+    width: 100vw;
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    padding: 80px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 200px;
+
+}
+
 
 body {
   background-color: #FFF0CC;
@@ -56,4 +68,18 @@ h2 {
 
 .sm-img {
   width: 200px
+}
+
+.recipe-card {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.container {
+  width: 80%; /* Example: Define a width for the container */
+  margin: 0 auto; /* Centers the container horizontally */
+  border: 2px solid blue; /* Border on the container */
+  text-align: center; /* Centers inline content within the container */
 }
