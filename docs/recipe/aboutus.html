@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umami Taste - Home</title>
+    <title>Umami Taste - About Us</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -48,11 +48,13 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg border-bottom bg-ut-text-bg">
-        <div class="container-fluid container">
-            <img src="images/logo1.png" width="16%" height="auto"> 
+    <nav class="navbar navbar-expand-lg border-bottom bg-ut-text-bg">
+        <div class="container ps-0">
+            <a href="index.html">
+                <img src="images/logo1.png" width="16%" height="auto"> 
+            </a>
             
-            <div class="d-flex ms-auto">
+            <div class="d-flex ms-auto pe-0">
                  <ul class="navbar-nav">
                   <li class="nav-item"><a class="nav-link text-ut-dark" href="#">Login</a></li>
                   <li class="nav-item"><a class="nav-link text-ut-dark" href="#">Sign up</a></li>
@@ -75,8 +77,8 @@
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="recipe.html">View All</a></li>
-                    <li><a class="dropdown-item" >Meal Types</a></li>
-                    <li><a class="dropdown-item" >Cuisines</a></li>
+                    <li><a class="dropdown-item" href="#">Meal Types</a></li>
+                    <li><a class="dropdown-item" href="#">Cuisines</a></li>
                 </ul>
             </div>
             
@@ -94,65 +96,65 @@
     
     <main class="container py-5">
         
-        <div class="text-center mb-5">
-            <img src="images/message.jpg" class="img-fluid rounded shadow" alt="Welcome Message">
-        </div>
+        <h1 class="display-4 text-center mb-5 text-ut-dark">Our Story at Umami Taste</h1>
 
-        <h2 class="mb-4 text-ut-dark">Favorite Recipes</h2>
-        
-        <div class="row row-cols-2 row-cols-md-4 g-4 mb-5 text-center">
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/favorite1.jpg" class="w-100 h-100 object-fit-cover" alt="Favorite 1">
-                </div>
-            </div>
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/chickenyamsoup.jpg" class="w-100 h-100 object-fit-cover" alt="Chicken with Yam">
-                </div>
-            </div>
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/chickendumplings.jpg" class="w-100 h-100 object-fit-cover" alt="Chicken Dumplings">
-                </div>
-            </div>
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/Chineseveg.jpg" class="w-100 h-100 object-fit-cover" alt="Chinese Vegetable">
-                </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+                <p class="lead text-center mb-4">
+                    Welcome to Umami Taste, where the rich, savory flavor that defines great cooking is at the heart of everything we do. Our mission is to connect home cooks with authentic, delicious, and easy-to-follow Asian recipes.
+                </p>
+                
+                <h2 class="mt-4 mb-3 text-ut-dark">What is Umami?</h2>
+                <p>
+                    Umami is one of the five basic tastes—alongside sweet, sour, salty, and bitter. Often described as savory, it is a key characteristic of many Asian cuisines, bringing depth and satisfaction to every dish. Our recipes are designed to help you harness this essential flavor element in your own kitchen.
+                </p>
+                
+                <h2 class="mt-4 mb-3 text-ut-dark">Our Commitment</h2>
+                <p>
+                    We believe cooking should be an enjoyable journey, not a chore. We source traditional recipes from diverse cultures across China, Korea, and Japan, adapting them for modern kitchens and busy schedules. Whether you're a seasoned chef or a beginner, Umami Taste is your guide to exploring the world of Asian flavors.
+                </p>
+                
+                <h2 class="mt-4 mb-3 text-ut-dark">Meet the Team</h2>
+                <p>
+                    Behind Umami Taste is a small team of passionate food enthusiasts, chefs, and developers dedicated to creating a beautiful and functional platform for recipe sharing. We're always experimenting, learning, and finding new ways to make great food accessible to everyone.
+                </p>
             </div>
         </div>
 
-        <h2 class="mb-4 mt-5 text-ut-dark">Meal Categories</h2>
+       <h2 class="text-center mt-5 mb-4 text-ut-dark">Our Culinary Experts</h2>
         
-        <div class="row row-cols-2 row-cols-md-4 g-4 mb-5 text-center">
+        <div class="row row-cols-2 row-cols-md-4 g-4 text-center justify-content-center">
             
             <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/soup.png" class="w-100 h-100 object-fit-cover" alt="Soup Category">
+                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden mx-auto" style="max-width: 200px;">
+                    <img src="images/chef1.jpg" class="w-100 h-100 object-fit-cover" alt="Chef 1">
                 </div>
-                <p class="mt-2 fw-bold">Soup</p>
+                <h5 class="mt-3 mb-1 text-ut-dark">Niki Nakayama</h5>
+                <p class="small text-muted">Cuisine Expert</p>
             </div>
 
             <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/Vegetable.png" class="w-100 h-100 object-fit-cover" alt="Vegetable Category">
+                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden mx-auto" style="max-width: 200px;">
+                    <img src="images/chef2.jpg" class="w-100 h-100 object-fit-cover" alt="Chef 2">
                 </div>
-                <p class="mt-2 fw-bold">Vegetable</p>
+                <h5 class="mt-3 mb-1 text-ut-dark">Judy He</h5>
+                <p class="small text-muted">Consultant</p>
+            </div>
+
+            <div class="col">
+                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden mx-auto" style="max-width: 200px;">
+                    <img src="images/chef3.jpg" class="w-100 h-100 object-fit-cover" alt="Chef 3">
+                </div>
+                <h5 class="mt-3 mb-1 text-ut-dark">Akira Xu</h5>
+                <p class="small text-muted">Specialist</p>
             </div>
             
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/instantpot.png" class="w-100 h-100 object-fit-cover" alt="Instant Pot Category">
+             <div class="col">
+                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden mx-auto" style="max-width: 200px;">
+                    <img src="images/chef4.jpg" class="w-100 h-100 object-fit-cover" alt="Chef 4">
                 </div>
-                <p class="mt-2 fw-bold">Instant Pot</p>
-            </div>
-            
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/dessert.png" class="w-100 h-100 object-fit-cover" alt="Dessert Category">
-                </div>
-                <p class="mt-2 fw-bold">Dessert</p>
+                <h5 class="mt-3 mb-1 text-ut-dark">Ming Tsai</h5>
+                <p class="small text-muted">Ambassador</p>
             </div>
 
         </div>
@@ -162,7 +164,7 @@
     <div class="bg-ut-nav text-ut-nav text-center py-4">
         <p class="mb-0">Subscribe for more delicious recipes</p>
     </div>
-
+    
     <div class="bg-ut-dark text-ut-nav py-3">
         <div class="container d-flex justify-content-between align-items-center">
             <div>

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umami Taste - Home</title>
+    <title>Umami Taste - Sweet & Sour Chicken</title>
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -38,7 +38,7 @@
         .navbar-brand { color: var(--ut-nav-bg) !important; }
         .bg-ut-text-bg { background-color: var(--ut-text-bg) !important; }
         
-        
+        /* Custom logo font application (for image-based logo) */
         .kaushan-script-regular {
           font-family: "Kaushan Script", cursive !important;
         }
@@ -48,11 +48,13 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg border-bottom bg-ut-text-bg">
-        <div class="container-fluid container">
-            <img src="images/logo1.png" width="16%" height="auto"> 
+    <nav class="navbar navbar-expand-lg border-bottom bg-ut-text-bg">
+        <div class="container ps-0"> 
+            <a href="index.html">
+                <img src="images/logo1.png" width="16%" height="auto"> 
+            </a>
             
-            <div class="d-flex ms-auto">
+            <div class="d-flex ms-auto pe-0">
                  <ul class="navbar-nav">
                   <li class="nav-item"><a class="nav-link text-ut-dark" href="#">Login</a></li>
                   <li class="nav-item"><a class="nav-link text-ut-dark" href="#">Sign up</a></li>
@@ -75,8 +77,8 @@
                 </a>
                 <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="recipe.html">View All</a></li>
-                    <li><a class="dropdown-item" >Meal Types</a></li>
-                    <li><a class="dropdown-item" >Cuisines</a></li>
+                    <li><a class="dropdown-item" href="#">Meal Types</a></li>
+                    <li><a class="dropdown-item" href="#">Cuisines</a></li>
                 </ul>
             </div>
             
@@ -94,69 +96,45 @@
     
     <main class="container py-5">
         
-        <div class="text-center mb-5">
-            <img src="images/message.jpg" class="img-fluid rounded shadow" alt="Welcome Message">
+        <h1 class="display-5 text-center mb-5">Sweet & Sour Chicken</h1> 
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <img src="images/sweetsourchicken.jpeg" class="img-fluid rounded shadow-lg" alt="Sweet & Sour Chicken">
+            </div>
+
+            <div class="col-md-6">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <p class="h5 mb-0"><i class="fa-solid fa-heart text-danger me-2"></i></p>
+                    <p class="mb-0 text-muted">Prep: 25 mins | Total: 34 mins</p>
+                </div>
+                
+                <p class="lead">Servings: 4 +</p>
+
+                <p class="mb-4">
+                  Sweet and sour chicken is a popular dish in Chinese-American cuisine,
+                  consisting of crispy fried chicken pieces and vegetables coated in a tangy
+                  sweet sauce.
+                </p>
+
+                <h4 class="mb-2">Flavor Breakdown</h4>
+                <ul class="list-unstyled mb-4">
+                  <li><strong>Sauce:</strong> consists of sweet; sugar, ketchup, and pineapple juice</li>
+                  <li><strong>Sour:</strong> Vinegar; apple cider, white distilled, or rice vinegar</li>
+                  <li><strong>Other flavors:</strong> Saltiness from soy sauce, thickening agent from cornstarch</li>
+                </ul>
+
+                <h4 class="mb-2">Ingredients</h4>
+                <p class="mb-1">
+                  <strong>Main Ingredients:</strong> 6 oz pineapple, 2 oz carrot, 3 oz red bell pepper,
+                  2 oz onion, 12 oz chicken breast, 10 oz corn oil
+                </p>
+                <p>
+                  <strong>Marinade Ingredients:</strong> 1 tbsp oyster sauce, 1 tsp light soy sauce,
+                  2 tbsp cornstarch, 1 tbsp water, 1 tsp salt
+                </p>
+            </div>
         </div>
-
-        <h2 class="mb-4 text-ut-dark">Favorite Recipes</h2>
-        
-        <div class="row row-cols-2 row-cols-md-4 g-4 mb-5 text-center">
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/favorite1.jpg" class="w-100 h-100 object-fit-cover" alt="Favorite 1">
-                </div>
-            </div>
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/chickenyamsoup.jpg" class="w-100 h-100 object-fit-cover" alt="Chicken with Yam">
-                </div>
-            </div>
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/chickendumplings.jpg" class="w-100 h-100 object-fit-cover" alt="Chicken Dumplings">
-                </div>
-            </div>
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/Chineseveg.jpg" class="w-100 h-100 object-fit-cover" alt="Chinese Vegetable">
-                </div>
-            </div>
-        </div>
-
-        <h2 class="mb-4 mt-5 text-ut-dark">Meal Categories</h2>
-        
-        <div class="row row-cols-2 row-cols-md-4 g-4 mb-5 text-center">
-            
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/soup.png" class="w-100 h-100 object-fit-cover" alt="Soup Category">
-                </div>
-                <p class="mt-2 fw-bold">Soup</p>
-            </div>
-
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/Vegetable.png" class="w-100 h-100 object-fit-cover" alt="Vegetable Category">
-                </div>
-                <p class="mt-2 fw-bold">Vegetable</p>
-            </div>
-            
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/instantpot.png" class="w-100 h-100 object-fit-cover" alt="Instant Pot Category">
-                </div>
-                <p class="mt-2 fw-bold">Instant Pot</p>
-            </div>
-            
-            <div class="col">
-                <div class="ratio ratio-1x1 rounded shadow-sm overflow-hidden">
-                    <img src="images/dessert.png" class="w-100 h-100 object-fit-cover" alt="Dessert Category">
-                </div>
-                <p class="mt-2 fw-bold">Dessert</p>
-            </div>
-
-        </div>
-
     </main>
 
     <div class="bg-ut-nav text-ut-nav text-center py-4">

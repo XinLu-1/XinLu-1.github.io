@@ -21,27 +21,6 @@
 .navigation {
   background-color: #AF0824;
 }
-.column {
-    width: 16.5%;
-    float: left;
-}
-
-.boxBorder{
-  border-style: solid;
-  border-width: 1px;
-}
-
-.boxBorderwhite{
-    width: 100vw;
-    display: block;
-    background-color: white;
-    border: 1px solid black;
-    padding: 80px;
-    text-align: center;
-    box-sizing: border-box;
-    height: 200px;
-
-}
 
 
 body {
@@ -78,8 +57,7 @@ h2 {
 }
 
 .container {
-  width: 80%; /* Example: Define a width for the container */
-  margin: 0 auto; /* Centers the container horizontally */
-  border: 2px solid blue; /* Border on the container */
-  text-align: center; /* Centers inline content within the container */
+  width: 80%; 
+  margin: 0 auto; 
+  text-align: center; 
 }
